@@ -119,4 +119,38 @@ nav{
     height: 144px;
     max-width: 200px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.product__img::before{
+    content: "";
+    max-width: 200px;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, #fff,  #dd4400,  #fff);
+    display: inline-block;
+}
+
+.product__img::after{
+    content: "";
+    display: block;
+}
+
+.content{
+    justify-content: space-between;
+}
+
+.content__info{
+    max-width: 730px;
+    width: 100%;
+}
+
+
+.sidebar{
+    max-width: 255px;
+    width: 100%;
 }
